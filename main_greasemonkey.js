@@ -4,7 +4,9 @@
 // @namespace   https://github.com/s-light
 // @include     http://localhost:8000/*/schedule/*
 // @version  0.1.0
-// @require https://s-light.github.io/pretalx_hacks/ui_helper.js
+// @require https://s-light.github.io/pretalx_hacks/helper.js
+// @require https://s-light.github.io/pretalx_hacks/helper_ui.js
+// @require https://s-light.github.io/pretalx_hacks/fix_css.js
 // require https://s-light.github.io/pretalx_hacks/csv_exporter.js
 //
 // https://wiki.greasespot.net/Metadata_Block#.40require
@@ -13,7 +15,8 @@
 function start_script() {
     console.info('pretalx_hacks..');
 
-    // start_hide_columns();
+    helper();
+    helper_ui();
 
     console.info('all user scripting done.');
 }

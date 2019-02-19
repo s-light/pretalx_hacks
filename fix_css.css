@@ -1,0 +1,10 @@
+
+
+.room-column {
+	min-width: 15em;
+}
+
+#fahrplan .room,
+#fahrplan .room-header {
+	min-width: 12rem;
+}
