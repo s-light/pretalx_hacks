@@ -8,3 +8,7 @@
 #fahrplan .room-header {
 	min-width: 12rem;
 }
+
+#unassigned-talks {
+	width: 25rem;
+}
